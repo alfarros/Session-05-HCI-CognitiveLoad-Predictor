@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Data & Model Weights
+dataset/*.csv
+*.pt
+*.pth
+*.onnx
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
